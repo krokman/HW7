@@ -2,7 +2,10 @@ package dao;
 
 import model.Client;
 
+import java.util.List;
+
 public interface ClientDao {
-    void save(Client client);
-    Client get();
+    void saveClient(Client client);
+    Client getClient();
+    List<Client> getAllClients();
 }

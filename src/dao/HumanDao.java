@@ -2,8 +2,11 @@ package dao;
 
 import model.Human;
 
+import java.util.List;
+
 public interface HumanDao {
-		void save(Human human);
-		Human get();
+		void saveHuman(Human human);
+		Human getHuman();
+		List<Human> getAllHumans();
 	}
 
